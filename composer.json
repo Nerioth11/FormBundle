@@ -33,7 +33,7 @@
   },
   "autoload": {
     "psr-4": {
-      "Jdelgado\\FormBundle\\": ""
+      "jdelgado\\FormBundle\\": ""
     },
     "exclude-from-classmap": [
       "/Tests/"
@@ -41,7 +41,7 @@
   },
   "autoload-dev": {
     "psr-4": {
-      "Jdelgado\\FormBundle\\Tests\\": "tests/"
+      "jdelgado\\FormBundle\\Tests\\": "tests/"
     }
   },
   "conflict": {
