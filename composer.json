@@ -12,12 +12,13 @@
     }
   ],
   "require": {
-    "php"                     : "^7.1",
+    "php": "^7.1",
+    "jdelgado/form-bundle": "^1.1@dev",
     "symfony/framework-bundle": "^4.0",
-    "symfony/security-bundle" : "^4.0",
-    "symfony/translation"     : "^4.0",
-    "symfony/twig-bundle"     : "^4.0",
-    "symfony/yaml"            : "^4.0"
+    "symfony/security-bundle": "^4.0",
+    "symfony/translation": "^4.0",
+    "symfony/twig-bundle": "^4.0",
+    "symfony/yaml": "^4.0"
   },
   "require-dev": {
     "symfony/phpunit-bridge": "^4.0"

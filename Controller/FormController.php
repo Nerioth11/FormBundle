@@ -7,8 +7,8 @@ use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 
 class FormController extends Controller
 {
-    public function showForm()
+    public function showAction()
     {
-        return $this->render('@FormBundle/Form/form.html.twig');
+        return $this->render('@Form/Form/form.html.twig');
     }
 }
