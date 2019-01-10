@@ -2,10 +2,10 @@
 
 namespace jdelgado\FormBundle\Controller;
 
-use Symfony\Bundle\FrameworkBundle\Controller\Controller;
+use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 
 
-class FormController extends Controller
+class FormController extends AbstractController
 {
     public function showAction()
     {
