@@ -1,10 +1,16 @@
 {% trans_default_domain 'FormBundle' %}
-
 <html>
     <head>
-        <meta charset="UTF-8" />
+        <meta charset="UTF-8"/>
     </head>
     <body>
-        <img src="http://img2.rtve.es/v/4353901?w=1600&preview=1512648606813.jpg"></img>
+    {% block outer %}
+        {% block cristiano %}
+            <img src="http://img2.rtve.es/v/4353901?w=1600&preview=1512648606813.jpg"></img>
+        {% endblock %}
+        {% block novia %}
+            <img src="https://d13ezvd6yrslxm.cloudfront.net/wp/wp-content/images/spider-man-into-the-spider-verse-2-700x295.jpg"></img>
+        {% endblock %}
+    {% endblock %}
     </body>
 </html>
